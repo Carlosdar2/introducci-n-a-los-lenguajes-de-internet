@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Documento</title>
+        </head>
+        <body>
+            <!--esto es un comentario-->
+            <h1>DEJANOS TU INFORMACION Y TE CONTACTAREMOS PARA COTIZAR TU CREDITO</h1>
+            <!--  -->
+            <h2>Formulario de informacion</h2>
+        
+            <p>* todos los campos con (*) son obligatorios</p>
+            <hr>
+             <!-- <a href="https://web.whatsapp.com/" TARGET = "-BLANK">CLICK AQUI </a> -->
+
+            <!-- <img src="https://crdieselcolombia.com/img/empresa/img.png"> -->
+            <form action = "/PROCESAR-REGISTRO-COTIZACION" METHOD="POST">
+
+                <label FOR="coutas"> Cuotas</label>
+                <input type="number" name="cuotas" id="cuotas" min="12" max="24">
+                <br>
+                <LABEL FOR="nombre">*Nombre</LABEL>
+                <input type="text" name="nombre" id= "Nombre" required>
+                
+                <label for="apellido"> *Apellido</label>
+                <input type="text" name="Apellido" id="apellido "  required>
+                <br>
+                <label for="celular">*Numero celular</label>
+                <input type="text" name="celular" id= "celular" placeholder="30#########" required>
+                <LABEL FOR="email">Email</LABEL>
+                <input type="email" name="email" id= "Email" placeholder="ejemplo@gmail.com" required>
+                
+                <br>
+                <LABEL FOR="metodo_contacto"></LABEL>
+                <select name="contacto" id="contacto" required>
+                <option value="">Selecciona metodo de contacto</option>
+                <option value="wh">Whatsapp</option>
+                <option value="email">Correo electronico</option required>
+                <option value="LL">Llamada</option>
+                </select>
+ 
+                <label for="terminos">
+                <input type="checkbox" name="termnos" id="terminos" required>
+                Acepto los <a href="https://giphy.com/gifs/jzaZ23z45UxK8">términos y condiciones </a>a
+                </label>
+                <button type ="submit" value=" Enviar" id="btnenviardatos">Enviar Datos</button>
+               
+ 
+ 
+            </form>
+        </body>
+        </html>
