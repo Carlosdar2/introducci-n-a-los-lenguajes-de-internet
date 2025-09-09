@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <style>
+
+    .naranja {
+        background-color: #ffb347;
+        color: #000;
+    }
+
+
+    .rojo {
+        background-color: #ff9999;
+        color: #000;
+    }
+
+
+    .verde {
+        background-color: #c3f584;
+        color: #000;
+    }
+
+
+    .gris {
+        background-color: #d3d3d3;
+        color: #000;
+    }
+
+    .amarillo {
+        background-color: #f4e285;
+        color: #000;
+    }
+
+    .rosado {
+        background-color: #f7cac9;
+        color: #000;
+    }
+
+    .azul {
+        background-color: #add8e6;
+        color: #000;
+    }
+    .element {
+            border: 1px solid black;
+            padding: 4px;
+            width: 65px;
+            height: 65px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+    td:hover {
+    background-color: #ffdbdb;
+    box-shadow: 0 0 20px 6px #ff4d4d;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+        #tipografia{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: black;
+        }
+
+
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAPERIODICA</title>
+</head>
+<body>
+    <h1 style="text-align: center; ">TABLA PERIODICA</h1>
+
+    <table>
+<table>
+    <!-- primera fila -->
+    <tr>
+        <td class="gris">
+            <div class="number" id="tipografia">1</div>
+            <div class="symbol" id="tipografia">H</div>
+            <div class="name" id="tipografia">HIDROGENO</div>
+        </td>
+        
+        <td colspan="16"></td>
+
+        <td class="rosado">
+            <div class="number" id="tipografia">2</div>
+            <div class="symbol" id="tipografia">He</div>
+            <div class="name" id="tipografia">HELIO</div>
+        </td>
+    </tr>
+
+    <!-- segunda fila -->
+    <tr>
+        <td class="naranja">
+            <div class="number" id="tipografia">3</div>
+            <div class="symbol" id="tipografia">Li</div>
+            <div class="name" id="tipografia">LITIO</div>
+        </td>
+        <td class="rojo">
+            <div class="number" id="tipografia">4</div>
+            <div class="symbol" id="tipografia">Be</div>
+            <div class="name" id="tipografia">BERILIO</div>
+        </td>
+        <td colspan="10"></td>
+        <td class="verde">
+            <div class="number" id="tipografia">5</div>
+            <div class="symbol" id="tipografia">B</div>
+            <div class="name" id="tipografia">BORO</div>
+        </td>
+        <td class="gris">
+            <div class="number" id="tipografia">6</div>
+            <div class="symbol" id="tipografia">C</div>
+            <div class="name" id="tipografia">CARBONO</div>
+        </td>
+        <td class="gris">
+            <div class="number" id="tipografia">7</div>
+            <div class="symbol" id="tipografia">N</div>
+            <div class="name" id="tipografia">NITROGENO</div>
+        </td>
+        <td class="gris">
+            <div class="number" id="tipografia">8</div>
+            <div class="symbol" id="tipografia">O</div>
+            <div class="name" id="tipografia">OXIGENO</div>
+        </td>
+        <td class="amarillo">
+            <div class="number" id="tipografia">9</div>
+            <div class="symbol" id="tipografia">F</div>
+            <div class="name" id="tipografia">FLUOR</div>
+        </td>
+        <td class="rosado">
+            <div class="number" id="tipografia">10</div>
+            <div class="symbol" id="tipografia">Ne</div>
+            <div class="name" id="tipografia">NEON</div>
+        </td>
+    </tr>
+
+    <!-- tercera fila -->
+    <tr>
+        <td class="naranja">
+            <div class="number" id="tipografia">11</div>
+            <div class="symbol" id="tipografia">Na</div>
+            <div class="name" id="tipografia">SODIO</div>
+        </td>
+        <td class="rojo">
+            <div class="number" id="tipografia">12</div>
+            <div class="symbol" id="tipografia">Mg</div>
+            <div class="name" id="tipografia">MAGNESIO</div>
+        </td>
+        <td colspan="10"></td>
+        <td class="azul">
+            <div class="number" id="tipografia">13</div>
+            <div class="symbol" id="tipografia">Al</div>
+            <div class="name" id="tipografia">ALUMINIO</div>
+        </td>
+        <td class="verde">
+            <div class="number" id="tipografia">14</div>
+            <div class="symbol" id="tipografia">Si</div>
+            <div class="name" id="tipografia">SILICIO</div>
+        </td>
+        <td class="gris">
+            <div class="number" id="tipografia">15</div>
+            <div class="symbol" id="tipografia">P</div>
+            <div class="name" id="tipografia">FOSFORO</div>
+        </td>
+        <td class="gris">
+            <div class="number" id="tipografia">16</div>
+            <div class="symbol" id="tipografia">S</div>
+            <div class="name" id="tipografia">AZUFRE</div>
+        </td>
+        <td class="amarillo">
+            <div class="number" id="tipografia">17</div>
+            <div class="symbol" id="tipografia">Cl</div>
+            <div class="name" id="tipografia">CLORO</div>
+        </td>
+        <td class="rosado">
+            <div class="number" id="tipografia">18</div>
+            <div class="symbol" id="tipografia">Ar</div>
+            <div class="name" id="tipografia">ARGON</div>
+        </td>
+    </tr>
+    <!-- tercera fila -->
+    <tr>
+    <td class="naranja">
+        <div class="number" id="tipografia">19</div>
+        <div class="symbol" id="tipografia">K</div>
+        <div class="name" id="tipografia">POTASIO</div>
+    </td>
+    <td class="rojo">
+        <div class="number" id="tipografia">20</div>
+        <div class="symbol" id="tipografia">Ca</div>
+        <div class="name" id="tipografia">CALCIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">21</div>
+        <div class="symbol" id="tipografia">Sc</div>
+        <div class="name" id="tipografia">ESCANDIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">22</div>
+        <div class="symbol" id="tipografia">Ti</div>
+        <div class="name" id="tipografia">TITANIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">23</div>
+        <div class="symbol" id="tipografia">V</div>
+        <div class="name" id="tipografia">VANADIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">24</div>
+        <div class="symbol" id="tipografia">Cr</div>
+        <div class="name" id="tipografia">CROMO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">25</div>
+        <div class="symbol" id="tipografia">Mn</div>
+        <div class="name" id="tipografia">MANGANESO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">26</div>
+        <div class="symbol" id="tipografia">Fe</div>
+        <div class="name" id="tipografia">HIERRO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">27</div>
+        <div class="symbol" id="tipografia">Co</div>
+        <div class="name" id="tipografia">COBALTO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">28</div>
+        <div class="symbol" id="tipografia">Ni</div>
+        <div class="name" id="tipografia">NIQUEL</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">29</div>
+        <div class="symbol" id="tipografia">Cu</div>
+        <div class="name" id="tipografia">COBRE</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">30</div>
+        <div class="symbol" id="tipografia">Zn</div>
+        <div class="name" id="tipografia">ZINC</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">31</div>
+        <div class="symbol" id="tipografia">Ga</div>
+        <div class="name" id="tipografia">GALIO</div>
+    </td>
+    <td class="verde">
+        <div class="number" id="tipografia">32</div>
+        <div class="symbol" id="tipografia">Ge</div>
+        <div class="name" id="tipografia">GERMANIO</div>
+    </td>
+    <td class="verde">
+        <div class="number" id="tipografia">33</div>
+        <div class="symbol" id="tipografia">As</div>
+        <div class="name" id="tipografia">ARSENICO</div>
+    </td>
+    <td class="gris">
+        <div class="number" id="tipografia">34</div>
+        <div class="symbol" id="tipografia">Se</div>
+        <div class="name" id="tipografia">SELENIO</div>
+    </td>
+    <td class="amarillo">
+        <div class="number" id="tipografia">35</div>
+        <div class="symbol" id="tipografia">Br</div>
+        <div class="name" id="tipografia">BROMO</div>
+    </td>
+    <td class="rosado">
+        <div class="number" id="tipografia">36</div>
+        <div class="symbol" id="tipografia">Kr</div>
+        <div class="name" id="tipografia">CRIPTON</div>
+    </td>
+</tr>
+<tr>
+    <td class="naranja">
+        <div class="number" id="tipografia">37</div>
+        <div class="symbol" id="tipografia">Rb</div>
+        <div class="name" id="tipografia">RUBIDIO</div>
+    </td>
+    <td class="rojo">
+        <div class="number" id="tipografia">38</div>
+        <div class="symbol" id="tipografia">Sr</div>
+        <div class="name" id="tipografia">ESTRONCIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">39</div>
+        <div class="symbol" id="tipografia">Y</div>
+        <div class="name" id="tipografia">ITRIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">40</div>
+        <div class="symbol" id="tipografia">Zr</div>
+        <div class="name" id="tipografia">CIRCONIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">41</div>
+        <div class="symbol" id="tipografia">Nb</div>
+        <div class="name" id="tipografia">NIOBIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">42</div>
+        <div class="symbol" id="tipografia">Mo</div>
+        <div class="name" id="tipografia">MOLIBDENO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">43</div>
+        <div class="symbol" id="tipografia">Tc</div>
+        <div class="name" id="tipografia">TECNECIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">44</div>
+        <div class="symbol" id="tipografia">Ru</div>
+        <div class="name" id="tipografia">RUTENIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">45</div>
+        <div class="symbol" id="tipografia">Rh</div>
+        <div class="name" id="tipografia">RODIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">46</div>
+        <div class="symbol" id="tipografia">Pd</div>
+        <div class="name" id="tipografia">PALADIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">47</div>
+        <div class="symbol" id="tipografia">Ag</div>
+        <div class="name" id="tipografia">PLATA</div>
+    </td>
+       <td class="azul">
+        <div class="number" id="tipografia">48</div>
+        <div class="symbol" id="tipografia">Cd</div>
+        <div class="name" id="tipografia">CADMIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">49</div>
+        <div class="symbol" id="tipografia">In</div>
+        <div class="name" id="tipografia">INDIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">50</div>
+        <div class="symbol" id="tipografia">Sn</div>
+        <div class="name" id="tipografia">ESTAÑO</div>
+    </td>
+    <td class="verde">
+        <div class="number" id="tipografia">51</div>
+        <div class="symbol" id="tipografia">Sb</div>
+        <div class="name" id="tipografia">ANTIMONIO</div>
+    </td>
+    <td class="verde">
+        <div class="number" id="tipografia">52</div>
+        <div class="symbol" id="tipografia">Te</div>
+        <div class="name" id="tipografia">TELURO</div>
+    </td>
+    <td class="amarillo">
+        <div class="number" id="tipografia">53</div>
+        <div class="symbol" id="tipografia">I</div>
+        <div class="name" id="tipografia">YODO</div>
+    </td>
+    <td class="rosado">
+        <div class="number" id="tipografia">54</div>
+        <div class="symbol" id="tipografia">Xe</div>
+        <div class="name" id="tipografia">XENÓN</div>
+    </td>
+</tr>
+ <tr>
+    <td class="naranja">
+        <div class="number" id="tipografia">55</div>
+        <div class="symbol" id="tipografia">Cs</div>
+        <div class="name" id="tipografia">CESIO</div>
+    </td>
+    <td class="rojo">
+        <div class="number" id="tipografia">56</div>
+        <div class="symbol" id="tipografia">Ba</div>
+        <div class="name" id="tipografia">BARIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">71</div>
+        <div class="symbol" id="tipografia">Lu</div>
+        <div class="name" id="tipografia">LUTECIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">72</div>
+        <div class="symbol" id="tipografia">Hf</div>
+        <div class="name" id="tipografia">HAFNIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">73</div>
+        <div class="symbol" id="tipografia">Ta</div>
+        <div class="name" id="tipografia">TANTALO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">74</div>
+        <div class="symbol" id="tipografia">W</div>
+        <div class="name" id="tipografia">WOLFRAMIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">75</div>
+        <div class="symbol" id="tipografia">Re</div>
+        <div class="name" id="tipografia">RENIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">76</div>
+        <div class="symbol" id="tipografia">Os</div>
+        <div class="name" id="tipografia">OSMIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">77</div>
+        <div class="symbol" id="tipografia">Ir</div>
+        <div class="name" id="tipografia">IRIDIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">78</div>
+        <div class="symbol" id="tipografia">Pt</div>
+        <div class="name" id="tipografia">PLATINO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">79</div>
+        <div class="symbol" id="tipografia">Au</div>
+        <div class="name" id="tipografia">ORO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">80</div>
+        <div class="symbol" id="tipografia">Hg</div>
+        <div class="name" id="tipografia">MERCURIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">81</div>
+        <div class="symbol" id="tipografia">Tl</div>
+        <div class="name" id="tipografia">TALIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">82</div>
+        <div class="symbol" id="tipografia">Pb</div>
+        <div class="name" id="tipografia">PLOMO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">83</div>
+        <div class="symbol" id="tipografia">Bi</div>
+        <div class="name" id="tipografia">BISMUTO</div>
+    </td>
+    <td class="verde">
+        <div class="number" id="tipografia">84</div>
+        <div class="symbol" id="tipografia">Po</div>
+        <div class="name" id="tipografia">POLONIO</div>
+    </td>
+    <td class="amarillo">
+        <div class="number" id="tipografia">85</div>
+        <div class="symbol" id="tipografia">At</div>
+        <div class="name" id="tipografia">ASTATO</div>
+    </td>
+    <td class="rosado">
+        <div class="number" id="tipografia">86</div>
+        <div class="symbol" id="tipografia">Rn</div>
+        <div class="name" id="tipografia">RADÓN</div>
+    </td>
+</tr>
+  <tr>
+    <td class="naranja">
+        <div class="number" id="tipografia">87</div>
+        <div class="symbol" id="tipografia">Fr</div>
+        <div class="name" id="tipografia">FRANCIO</div>
+    </td>
+    <td class="rojo">
+        <div class="number" id="tipografia">88</div>
+        <div class="symbol" id="tipografia">Ra</div>
+        <div class="name" id="tipografia">RADIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">103</div>
+        <div class="symbol" id="tipografia">Lr</div>
+        <div class="name" id="tipografia">LAURENCIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">104</div>
+        <div class="symbol" id="tipografia">Rf</div>
+        <div class="name" id="tipografia">RUTHERFORDIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">105</div>
+        <div class="symbol" id="tipografia">Db</div>
+        <div class="name" id="tipografia">DUBNIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">106</div>
+        <div class="symbol" id="tipografia">Sg</div>
+        <div class="name" id="tipografia">SEABORGIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">107</div>
+        <div class="symbol" id="tipografia">Bh</div>
+        <div class="name" id="tipografia">BOHRIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">108</div>
+        <div class="symbol" id="tipografia">Hs</div>
+        <div class="name" id="tipografia">HASSIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">109</div>
+        <div class="symbol" id="tipografia">Mt</div>
+        <div class="name" id="tipografia">MEITNERIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">110</div>
+        <div class="symbol" id="tipografia">Ds</div>
+        <div class="name" id="tipografia">DARMASTADIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">111</div>
+        <div class="symbol" id="tipografia">Rg</div>
+        <div class="name" id="tipografia">ROENTGENIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">112</div>
+        <div class="symbol" id="tipografia">Cn</div>
+        <div class="name" id="tipografia">COPERNICIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">113</div>
+        <div class="symbol" id="tipografia">Nh</div>
+        <div class="name" id="tipografia">NIHONIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">114</div>
+        <div class="symbol" id="tipografia">Fl</div>
+        <div class="name" id="tipografia">FLEROVIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">115</div>
+        <div class="symbol" id="tipografia">Mc</div>
+        <div class="name" id="tipografia">MOSCOVIO</div>
+    </td>
+    <td class="azul">
+        <div class="number" id="tipografia">116</div>
+        <div class="symbol" id="tipografia">Lv</div>
+        <div class="name" id="tipografia">LIVERMORIO</div>
+    </td>
+    <td class="amarillo">
+        <div class="number" id="tipografia">117</div>
+        <div class="symbol" id="tipografia">Ts</div>
+        <div class="name" id="tipografia">TENESINO</div>
+    </td>
+    <td class="rosado">
+        <div class="number" id="tipografia">118</div>
+        <div class="symbol" id="tipografia">Og</div>
+        <div class="name" id="tipografia">OGANESON</div>
+    </td>
+</tr>
+    </table>
+
+</body>
+</html>
