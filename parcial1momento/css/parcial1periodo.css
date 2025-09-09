@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* Fuente general y colores base */
+body {
+    margin: 0;
+    font-family: 'times new roman', Times, serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+.header-content {
+    width: 100%;
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navegación */
+nav .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 10px 0;
+    background-color: #0066cc;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Tabla de noticias */
+.noticias-seccion {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+.noticias-seccion td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    transition: background-color 0.3s ease;
+}
+
+.noticias-seccion td:hover {
+    background-color: #f0f8ff;
+}
+
+.noticia img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#tipografia {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+/* Sección de tarjetas */
+.noticias-ultima-hora {
+    padding: 20px;
+    background-color: #e6f2ff;
+}
+.noticias-ultima-hora p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.noticias-ultima-hora h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.noticias-ultima-hora .card {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.noticias-ultima-hora .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Pie de página */
+footer {
+    width: 100%;
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.social-media a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
